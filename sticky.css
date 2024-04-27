@@ -1,0 +1,227 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    }
+
+    nav{
+
+     position: fixed;
+     top:35%;
+     transform:translateY(-50%) ;
+     left: 1300px;
+     z-index: 999;
+
+
+    }
+    nav a{
+
+  display:block;
+  text-align: left;
+  transition: all 0.3s;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+ font-weight: 600;
+transition: 0.2s;
+position: relative;
+    }
+
+
+
+    nav a:hover{
+
+        color: rgb(3, 30, 72);
+        font-size: 25px;
+
+    }
+
+
+nav a::before{
+content: '';
+position: absolute;
+bottom: 4px;
+left: -100px;
+width: 140px;
+height: 5px;
+background-color: rgb(255, 0, 0);
+transition: 0.7s;
+
+
+}
+nav a:hover::before{
+   
+    
+    background-color: rgb(255, 255, 255);
+    width: 170px;
+    }
+
+    .s1,.s2,.s3{
+     width: 100%;
+     height: 700px;
+     
+
+
+    }
+    .s1{
+
+        background-image: url(10.png);
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .s2{
+
+        background-image: url(11.png);
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .s3{
+
+        background-image: url(13.png);
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+   .s1 .tex1{
+      
+      position: relative;
+      top:150px;
+      left:180px;
+      font-size:80px ;
+      color: azure;
+      
+     text-transform: uppercase;
+     box-shadow:10px 2px 300px black;
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:4px;
+    font-weight: 100;
+    transition: all 0.5s;
+    }
+    .s1 .tex1:hover{
+
+        letter-spacing: 2px;
+    }
+
+
+    .s1 button{
+        position: relative;
+        top:190px;
+        left:180px;
+        width: 300px;
+        height: 80px;
+        border-radius: 10px 0px 10px 0px;
+        background-color: rgba(240, 255, 255, 0.199);
+        border: 2px solid white;
+        color: rgb(185, 181, 181);
+        font-size: 23px;
+      transition: all 0.5s;
+
+    }
+    
+
+    .s1 button:hover{
+
+      background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 0px 10px 0px 10px;
+    width: 310px;
+        height: 90px;
+  
+    }
+
+    .s2 .tex1{
+      
+        position: relative;
+        top:200px;
+        left:180px;
+        font-size:80px ;
+        color: azure;
+        box-shadow:10px 2px 300px black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:4px;
+    text-transform: uppercase;
+    font-weight: 100;
+    transition: all 0.2s;
+  
+      }
+      .s2 .tex1:hover{
+
+        letter-spacing: 2px;
+    }
+
+      .s2 button{
+        position: relative;
+        top:250px;
+        left:180px;
+        width: 300px;
+        height: 80px;
+        border-radius: 10px 0px 10px 0px;
+        background-color: rgba(240, 255, 255, 0.199);
+        border: 2px solid white;
+        color: rgb(185, 181, 181);
+        font-size: 23px;
+        transition: all 0.5s;
+
+
+    }
+    .s2 button:hover{
+
+        background-color: rgb(0, 0, 0);
+      color: white;
+      border-radius: 0px 10px 0px 10px;
+      width: 310px;
+          height: 90px;
+    
+      }
+
+    .s3 .tex1{
+      
+        position: relative;
+        top:200px;
+        left:180px;
+        font-size:80px ;
+        color: azure;
+        box-shadow:10px 2px 300px black;
+  
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing:4px;
+        text-transform: uppercase;
+        font-weight: 100;
+        transition: all 0.2s;
+      }
+
+      .s3 .tex1:hover{
+
+        letter-spacing: 2px;
+    }
+      .s3 button{
+        position: relative;
+        top:250px;
+        left:180px;
+        width: 300px;
+        height: 80px;
+        border-radius: 10px 0px 10px 0px;
+        background-color: rgba(240, 255, 255, 0.199);
+        border: 2px solid white;
+        color: rgb(185, 181, 181);
+        font-size: 23px;
+        transition: all 0.5s;
+
+
+    }
+    .s3 button:hover{
+
+        background-color: rgb(0, 0, 0);
+      color: white;
+      border-radius: 0px 10px 0px 10px;
+      width: 310px;
+          height: 90px;
+    
+      }

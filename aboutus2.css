@@ -1,0 +1,28 @@
+.sec1{
+ background-image: url(14.png);
+height: 500px;
+background-attachment: fixed;
+
+}
+.sec1 img{
+
+ margin-top: 80px;
+
+
+}
+.sec2{
+    background-image: url(13.png);
+   height: 500px;
+   background-attachment: fixed;
+   
+   }
+   .first{
+
+
+    margin-top: 50px;
+   }
+   .sec2{
+
+
+    margin-top: -500px;
+   }
